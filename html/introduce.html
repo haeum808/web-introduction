@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>안녕하세요</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h3>자기소개</h3>
+  <ul>
+    <li>이름: 해음</li>
+    <li>사는 곳: 도봉구</li>
+    <li>안녕하세요 저는 해음입니다. 만나서 반갑습니다.</li>
+  </ul>
+
+  <hr />
+
+  <h3>인생 영화 BEST5</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">순위</th>
+        <th scope="col">제목</th>
+        <th scope="col">포스터</th>
+        <th scope="col">줄거리</th>
+        <th scope="col">바로가기</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>인터스텔라</td>
+        <td><img src="./images/인터스텔라.jpg" width="100" height="100"></td>
+        <td>세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다.
+        <td><a href="https://serieson.naver.com/v2/movie/85584" target="_blank">클릭</a></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>인셉션</td>
+        <td><img src="./images/인셉션.jpg" width="100" height="100"></td>
+        <td>
+          드림머신이라는 기계로 타인의 꿈과 접속해 생각을 빼낼 수 있는 미래사회</td>
+        <td><a href="https://serieson.naver.com/v2/movie/2208" target="_blank">클릭</a></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>기생충</td>
+        <td><img src="./images/기생충.jpg" width="100" height="100"></td>
+        <td>전원백수로 살 길 막막하지만 사이는 좋은 기택(송강호) 가족</td>
+        <td><a href="https://serieson.naver.com/v2/movie/367270" target="_blank">클릭</a></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>어바웃타임</td>
+        <td><img src="./images/어바웃타임.jpg" width="100" height="100"></td>
+        <td>모태솔로 팀(돔놀 글리슨)은 성인이 된 날, 아버지(빌 나이)로부터 놀랄만한 가문의 비밀을 듣게 된다.</td>
+        <td><a href="https://serieson.naver.com/v2/movie/56491" target="_blank">클릭</a></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>어른 제국의 역습</td>
+        <td><img src="./images/어른 제국의 역습.jpg" width="100" height="100"></td>
+        <td>20세기를 그리워하는 사람이 현재의 21세기 일본은 감정도 없고 메마른 곳이라며 현재의 일본을 20세기 되돌려 놓으려한다.</td>
+        <td><a href="https://serieson.naver.com/v2/movie/496917" target="_blank">클릭</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr />
+
+  <h3>방명록</h3>
+  <form id="guest">
+    <p>
+      이름 : <input type="text" id="name1" value="" />
+    </p>
+    <p>본인 취향 영화</p>
+
+    <input type="checkbox" id="movie1">인터스텔라</input>
+    <input type="checkbox" id="movie2">인셉션</input>
+    <input type="checkbox" id="movie3">기생충</input>
+    <input type="checkbox" id="movie4">어바웃타임</input>
+    <input type="checkbox" id="movie5">어른 제국의 역습</input>
+
+    <br>
+  </form>
+
+  <button id="button1">등록</button>
+  <button id="button2">취소</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
